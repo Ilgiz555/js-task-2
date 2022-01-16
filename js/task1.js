@@ -3,6 +3,11 @@ let P = 'ddd@bbb@ccc';
 let newP = P.replace('ddd@bbb@ccc', 'ddd!bbb!ccc');
 console.log(newP);
 */
+/* еще вариант
+let P = 'ddd@bbb@ccc';
+let newP = P.replaceALL('@', '!');
+console.log(newP);
+*/
 
 let P = 'ddd@bbb@ccc';
 let newP = P.replace(P[3], '!');
